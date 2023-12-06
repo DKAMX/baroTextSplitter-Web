@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Barotrauma Text Splitter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script async src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>Barotrauma Text Splitter</h1>
+    </header>
+    <main>
+        <p>There are two ways to convert your XML file. Copy and paste your content down below, or upload the file.</p>
+        <div id="textpanel">
+            <div id="inputpanel">
+                <label>Input</label>
+                <input type="file" />
+                <textarea id="input"></textarea>
+            </div>
+            <div id="outputpanel">
+                <label>Output</label>
+                <textarea id="output" readonly></textarea>
+            </div>
+        </div>
+        <div id="controlpanel">
+            <button id="parse">Parse</button>
+            <button id="clear">Clear</button>
+            <button id="save">Save</button>
+        </div>
+    </main>
+    <footer>
+        <h6>DKAMX</h6>
+    </footer>
+</body>
+
+</html>

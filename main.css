@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-image: url(https://barotraumagame.com/baro-wiki/skins/DarkVectorBaro/images/wiki-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: "consolas";
+    color: #e2d9a4;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+main {
+    height: 480px;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+}
+
+#textpanel {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#inputpanel {
+    padding: 1%;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+}
+
+#inputpanel>input {
+    padding: 1%;
+    background-color: rgba(0, 139, 139, 0.5);
+}
+
+#outputpanel {
+    padding: 1%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+#input,
+#output {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "consolas";
+    resize: none;
+}
+
+#controlpanel {
+    text-align: right;
+}
+
+#parse,
+#clear,
+#save {
+    width: 60px;
+}
