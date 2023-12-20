@@ -1,52 +1,53 @@
 body {
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), transparent), url(https://barotraumagame.com/baro-wiki/skins/DarkVectorBaro/images/wiki-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(https://barotraumagame.com/baro-wiki/skins/DarkVectorBaro/images/wiki-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     font-family: "consolas";
     color: #e2d9a4;
 }
 
-header {
+header,
+footer {
     text-align: center;
 }
 
 main {
-    height: 480px;
-    display: grid;
-    grid-template-rows: 15% 80% 5%;
-    font-size: large;
+    padding-inline: 1svw;
 }
 
-main * {
-    margin: 0;
+#introduction,
+#tutorial * {
+    margin-block: 4px;
 }
-
-/* a {
-    background-color: #e2d9a4;
-} */
 
 #textpanel {
     display: grid;
     grid-template-columns: 50% 50%;
+    height: 360px;
 }
 
 #inputpanel {
-    padding: 1%;
     display: grid;
     /* grid-template-rows: 10% 10% 80%; */
     grid-template-rows: 10% 90%;
+    padding: 4px;
 }
 
-#inputpanel>input {
-    padding: 1%;
+/* #inputpanel>input {
+    padding: 4px;
     background-color: rgba(0, 139, 139, 0.5);
-}
+} */
 
 #outputpanel {
-    padding: 1%;
     display: grid;
     grid-template-rows: 10% 90%;
+    padding: 4px;
+}
+
+#inputpanel label,
+#outputpanel label {
+    padding: 4px;
 }
 
 #input,
@@ -64,5 +65,13 @@ main * {
 #parse,
 #clear,
 #save {
-    width: 60px;
+    width: 50px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightgray;
 }
