@@ -3,8 +3,8 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(https://barotraumagame.com/baro-wiki/skins/DarkVectorBaro/images/wiki-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    font-family: "consolas";
-    color: #e2d9a4;
+    color: rgba(228, 217, 167, 1);
+    /* color: rgba(173, 212, 186, 1); */
 }
 
 header,
